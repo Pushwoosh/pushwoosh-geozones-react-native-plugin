@@ -1,7 +1,7 @@
 {
   "name": "pushwoosh-geozones-react-native-plugin",
   "version": "1.0.0",
-  "description": "This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).",
+  "description": "This plugin allows you to send and receive push notifications assigned to Pushwoosh Geozones. Powered by Pushwoosh (www.pushwoosh.com).",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "android": {
       "sourceDir": "./src/android"
     }
+  },
+  "dependencies": {
+    "pushwoosh-react-native-plugin": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git#feature/PUSH-17744_remove_geozones"
   }
 }

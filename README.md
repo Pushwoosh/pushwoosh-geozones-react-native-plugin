@@ -15,7 +15,7 @@ React Native Pushwoosh Push Notifications module
 
 ```
 npm install pushwoosh-geozones-react-native-plugin --save
-react-native link pushwoosh-geozones-pushwoosh-react-native-plugin
+react-native link pushwoosh-geozones-react-native-plugin
 ```
 
 ### Usage

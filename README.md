@@ -14,18 +14,14 @@ React Native Pushwoosh Push Notifications module
 ### Installation
 
 ```
-npm install pushwoosh-react-native-plugin --save
-react-native link pushwoosh-react-native-plugin
+npm install pushwoosh-geozones-react-native-plugin --save
+react-native link pushwoosh-geozones-pushwoosh-react-native-plugin
 ```
 
 ### Usage
 
 ```js
-import Pushwoosh from 'pushwoosh-react-native-plugin';
+import PushwooshGeozones from 'pushwoosh-geozones-react-native-plugin';
 
-Pushwoosh.init({ 
-    "pw_appid" : "YOUR_PUSHWOOSH_PROJECT_ID" , 
-    "project_number" : "YOUR_GCM_PROJECT_NUMBER" 
-});
-Pushwoosh.register();
+PushwooshGeozones.startLocationTracking();
 ```

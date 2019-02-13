@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git"
+    "url": "git+https://github.com/Pushwoosh/pushwoosh-geozones-react-native-plugin.git"
   },
   "keywords": [
     "push",
@@ -16,14 +16,14 @@
   "author": "Pushwoosh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin/issues"
+    "url": "https://github.com/Pushwoosh/pushwoosh-geozones-react-native-plugin/issues"
   },
   "rnpm": {
     "android": {
       "sourceDir": "./src/android"
     }
   },
-  "dependencies": {
+  "peerDependencies": {
     "pushwoosh-react-native-plugin": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git#feature/PUSH-17744_remove_geozones"
   }
 }

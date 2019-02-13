@@ -34,19 +34,9 @@ android {
     }
 }
 
-ext {
-    pushwoosh = "5.9.0"
-}
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.facebook.react:react-native:+'
-//    compile "com.pushwoosh:pushwoosh:${pushwoosh}"
-//    compile "com.pushwoosh:pushwoosh-amazon:${pushwoosh}"
-//    compile "com.pushwoosh:pushwoosh-badge:${pushwoosh}"
-//    compile "com.pushwoosh:pushwoosh-gcm:${pushwoosh}"
-//    compile "com.pushwoosh:pushwoosh-inbox:${pushwoosh}"
-//    compile "com.pushwoosh:pushwoosh-inbox-ui:${pushwoosh}"
     compile "com.android.support:appcompat-v7:27.+"
     compile "com.android.support:recyclerview-v7:27.+"
     compile "com.android.support:recyclerview-v7:27.+"

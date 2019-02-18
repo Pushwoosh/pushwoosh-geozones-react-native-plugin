@@ -41,4 +41,5 @@ ext {
 dependencies {
     implementation "com.pushwoosh:pushwoosh-location:${pushwoosh}"
     implementation 'com.facebook.react:react-native:+'
+    implementation "com.google.android.gms:play-services-location:+"
 }

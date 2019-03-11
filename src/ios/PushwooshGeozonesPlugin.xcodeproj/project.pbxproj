@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A500AAD22365E1600D7D17B /* libPushwooshGeozones.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A500AAB22365E1600D7D17B /* libPushwooshGeozones.a */; };
 		46D37B361D12BB4900D5EC47 /* PushwooshGeozones.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D37B351D12BB4900D5EC47 /* PushwooshGeozones.h */; };
 		46D37B381D12BB4900D5EC47 /* PushwooshGeozones.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D37B371D12BB4900D5EC47 /* PushwooshGeozones.m */; };
-		5DAC3AC5220C373400C5EC1D /* libPushwooshGeozones.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAC3997220C24C300C5EC1D /* libPushwooshGeozones.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A500AAB22365E1600D7D17B /* libPushwooshGeozones.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushwooshGeozones.a; sourceTree = "<group>"; };
+		2A500AAC22365E1600D7D17B /* PWGeozonesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWGeozonesManager.h; sourceTree = "<group>"; };
 		46D37B321D12BB4900D5EC47 /* libPushwooshGeozonesPlugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPushwooshGeozonesPlugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D37B351D12BB4900D5EC47 /* PushwooshGeozones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushwooshGeozones.h; sourceTree = "<group>"; };
 		46D37B371D12BB4900D5EC47 /* PushwooshGeozones.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushwooshGeozones.m; sourceTree = "<group>"; };
-		5DAC3996220C24BD00C5EC1D /* PWGeozonesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWGeozonesManager.h; sourceTree = "<group>"; };
-		5DAC3997220C24C300C5EC1D /* libPushwooshGeozones.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushwooshGeozones.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +38,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAC3AC5220C373400C5EC1D /* libPushwooshGeozones.a in Frameworks */,
+				2A500AAD22365E1600D7D17B /* libPushwooshGeozones.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A500AAA22365E1600D7D17B /* NativeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2A500AAB22365E1600D7D17B /* libPushwooshGeozones.a */,
+				2A500AAC22365E1600D7D17B /* PWGeozonesManager.h */,
+			);
+			path = NativeLibrary;
+			sourceTree = "<group>";
+		};
 		46D37B291D12BB4900D5EC47 = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +74,7 @@
 		46D37B341D12BB4900D5EC47 /* PushwooshGeozonesPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				5DAC3996220C24BD00C5EC1D /* PWGeozonesManager.h */,
-				5DAC3997220C24C300C5EC1D /* libPushwooshGeozones.a */,
+				2A500AAA22365E1600D7D17B /* NativeLibrary */,
 				46D37B351D12BB4900D5EC47 /* PushwooshGeozones.h */,
 				46D37B371D12BB4900D5EC47 /* PushwooshGeozones.m */,
 			);
@@ -235,6 +243,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/PushwooshGeozonesPlugin",
+					"$(PROJECT_DIR)/PushwooshGeozonesPlugin/NativeLibrary",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -254,6 +263,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/PushwooshGeozonesPlugin",
+					"$(PROJECT_DIR)/PushwooshGeozonesPlugin/NativeLibrary",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

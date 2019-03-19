@@ -7,7 +7,7 @@ React Native Pushwoosh Geozones module
 
 ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-yellowgreen.svg)
 
-| [Guide](http://docs.pushwoosh.com/docs/react-native-plugin) | [Documentation](http://docs.pushwoosh.com/docs/react-native-plugin) | [Sample](https://github.com/Pushwoosh/pushwoosh-react-native-sample) |
+| [Guide](https://www.pushwoosh.com/platform-docs/pushwoosh-sdk/cross-platform-frameworks/react-native/integrating-react-native-plugin) | [Documentation](https://github.com/Pushwoosh/pushwoosh-react-native-plugin/tree/master/docs) | [Sample](https://github.com/Pushwoosh/pushwoosh-react-native-sample) |
 | ----------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------- |
 
 ### Installation

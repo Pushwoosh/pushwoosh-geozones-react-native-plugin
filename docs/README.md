@@ -32,9 +32,6 @@ startLocationTracking()
 
 **[android, ios]**  
 Starts geolocation-based push notifications. Geozones are configured in Pushwoosh Control panel.
-Requires geolocation permissions:  
-http://docs.pushwoosh.com/docs/androidmanifestxml-modifications#geozones-push-notifications   http://docs.pushwoosh.com/docs/customizing-ios-sdk#geozones-push-notifications.
-
 
 ### stopLocationTracking
 

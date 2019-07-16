@@ -5,7 +5,12 @@
 //
 
 #import "PushwooshGeozones.h"
+
+#if __has_include(<PushwooshGeozones/PWGeozonesManager.h>)
+#import <PushwooshGeozones/PWGeozonesManager.h>
+#else
 #import "PWGeozonesManager.h"
+#endif
 
 #import <React/RCTUtils.h>
 #import <React/RCTBridge.h>

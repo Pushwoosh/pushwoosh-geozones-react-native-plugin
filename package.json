@@ -1,6 +1,6 @@
 {
   "name": "pushwoosh-geozones-react-native-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This plugin allows you to receive push notifications from Pushwoosh Geozones. Powered by Pushwoosh (www.pushwoosh.com).",
   "main": "index.js",
   "repository": {

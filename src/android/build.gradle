@@ -1,10 +1,13 @@
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.6.3'
     }
 }
 
@@ -20,11 +23,10 @@ allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.2"
+    compileSdkVersion 30
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 27
+        minSdkVersion 17
+        targetSdkVersion 30
     }
     buildTypes {
         release {
@@ -35,7 +37,6 @@ android {
 }
 
 dependencies {
-    implementation "com.pushwoosh:pushwoosh-location:5.22.1"
+    implementation "com.pushwoosh:pushwoosh-location:6.0.3"
     implementation 'com.facebook.react:react-native:+'
-    implementation "com.google.android.gms:play-services-location:(+,17.0.0)"
 }

@@ -37,6 +37,6 @@ android {
 }
 
 dependencies {
-    implementation "com.pushwoosh:pushwoosh-location:6.6.5"
+    implementation "com.pushwoosh:pushwoosh-location:6.7.8"
     implementation 'com.facebook.react:react-native:+'
 }
